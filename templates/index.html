@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="jp">
+<link rel="stylesheet" href="../static/css/css.css">
+<script src="../static/js/js.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>電卓</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="5"><div id="out" class="disp"></div></td>
+        </tr>
+        <tr>
+            <td colspan="5"><div id="ans" class="disp"></div></td>
+        </tr>
+        <tr>
+            <td><div class="button sym" onclick="calc(this)">(</div></td>
+            <td><div class="button sym" onclick="calc(this)">)</div></td>
+            <td><div class="button sym" onclick="calc(this)">%</div></td>
+            <td><div class="button sym c" onclick="calc(this)">AC</div></td>
+            <td><div class="button sym" onclick="calc(this)">←</div></td>
+        </tr>
+        <tr>
+            <td><div class="button num" onclick="calc(this)">7</div></td>
+            <td><div class="button num" onclick="calc(this)">8</div></td>
+            <td><div class="button num" onclick="calc(this)">9</div></td>
+        </tr>
+        <tr>
+            <td><div class="button num" onclick="calc(this)">4</div></td>
+            <td><div class="button num" onclick="calc(this)">5</div></td>
+            <td><div class="button num" onclick="calc(this)">6</div></td>
+            <td><div class="button sym" onclick="calc(this)">÷</div></td>
+            <td><div class="button sym" onclick="calc(this)">×</div></td>
+        </tr>
+        <tr>
+            <td><div class="button num" onclick="calc(this)">1</div></td>
+            <td><div class="button num" onclick="calc(this)">2</div></td>
+            <td><div class="button num" onclick="calc(this)">3</div></td>
+            <td><div class="button sym" onclick="calc(this)">-</div></td>
+            <td><div class="button sym" onclick="calc(this)">+</div></td>
+        </tr>
+        <tr>
+            <td><div class="button num" onclick="calc(this)">00</div></td>
+            <td><div class="button num" onclick="calc(this)">0</div></td>
+            <td><div class="button num" onclick="calc(this)">.</div></td>
+            <td><div class="button sym e" onclick="calc(this)">=</div></td>
+            <td><div class="button sym e" onclick="calc(this)">int</div></td>
+        </tr>
+    </table>
+</body>
+</html>
