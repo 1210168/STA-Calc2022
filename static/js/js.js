@@ -47,10 +47,6 @@ function calc(btn){
             }
         }
         btn.innerHTML = fin();
-        console.log(flgfst,flgkk,flgdt);
-        console.log(way);
-        console.log(inp.innerHTML);
-        console.log(cnt);
         return;
     }
 
@@ -132,10 +128,6 @@ function calc(btn){
             }
         }
     }
-    console.log(flgfst,flgkk,flgdt);
-    console.log(way,btn);
-    console.log(inp.innerHTML);
-    console.log(cnt);
     btn.innerHTML = fin();
 }
 
